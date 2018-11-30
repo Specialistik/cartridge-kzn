@@ -1,0 +1,48 @@
+{
+  "name": "cartridge-kzn",
+  "version": "1.0.0",
+  "description": "Just a simple app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Заправка",
+    "картриджей",
+    "в",
+    "Казани"
+  ],
+  "author": "Specialistik",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^8.0.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-native": "^0.56.0",
+    "react-native-material-buttons": "^0.5.0",
+    "react-native-web": "^0.8.9",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-router-native": "^4.3.0",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "any-db": "^2.2.1",
+    "babel-eslint": "^9.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react-native": "^5.0.2",
+    "babel-runtime": "^6.26.0",
+    "db-migrate": "^0.11.3",
+    "eslint": "^5.4.0",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-react": "^7.11.1",
+    "react-hot-loader": "^4.3.5",
+    "react-native-cli": "^2.0.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}

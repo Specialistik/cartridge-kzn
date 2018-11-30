@@ -1,0 +1,82 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Git\mingw32\bin;C:\Program Files\Git\usr\bin;C:\Users\specialistik\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python27;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Yarn\bin;C:\Program Files\nodejs;C:\Program Files\PuTTY;C:\Users\орел\AppData\Local\Yarn\bin;C:\Users\орел\AppData\Roaming\npm
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  8.11.4
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-6.3.3.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files\Yarn\lib\cli.js:138095:19)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:106:13)
+      at ClientRequest.emit (events.js:208:7)
+      at TLSSocket.emitTimeout (_http_client.js:706:34)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:106:13)
+      at TLSSocket.emit (events.js:208:7)
+      at TLSSocket.Socket._onTimeout (net.js:410:8)
+      at ontimeout (timers.js:498:11)
+
+npm manifest: 
+  {
+    "name": "cartridge-kzn",
+    "version": "1.0.0",
+    "description": "Just a simple app",
+    "main": "index.js",
+    "scripts": {
+      "test": "test"
+    },
+    "keywords": [
+      "Заправка",
+      "картриджей",
+      "в",
+      "Казани"
+    ],
+    "author": "Specialistik",
+    "license": "ISC",
+    "dependencies": {
+      "babel-loader": "^8.0.0",
+      "prop-types": "^15.6.2",
+      "react": "^16.4.1",
+      "react-dom": "^16.4.1",
+      "react-native": "^0.56.0",
+      "react-native-web": "^0.8.9",
+      "react-redux": "^5.0.7",
+      "react-router-dom": "^4.3.1",
+      "react-router-native": "^4.3.0",
+      "redux": "^4.0.0",
+      "redux-thunk": "^2.3.0"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.0.0",
+      "@babel/core": "^7.0.0",
+      "any-db": "^2.2.1",
+      "babel-eslint": "^9.0.0",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-react-native": "^5.0.2",
+      "babel-runtime": "^6.26.0",
+      "db-migrate": "^0.11.3",
+      "eslint": "^5.4.0",
+      "eslint-loader": "^2.1.0",
+      "eslint-plugin-react": "^7.11.1",
+      "react-hot-loader": "^4.3.5",
+      "react-native-cli": "^2.0.1",
+      "webpack": "^4.17.1",
+      "webpack-cli": "^3.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
